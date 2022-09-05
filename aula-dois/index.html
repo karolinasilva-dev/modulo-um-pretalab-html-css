@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site da Karolina</title>
+    </head>
+
+    <body>
+        <!--tags de título-->
+        <h1>Esse é meu primeiro site!</h1>
+        <h2>Esse é meu primeiro site!</h2>
+        <h3>Esse é meu primeiro site!</h3>
+        <h4>Esse é meu primeiro site!</h4>
+        <h5>Esse é meu primeiro site!</h5>
+        <h6>Esse é meu primeiro site!</h6>
+        
+        <!--tag de parágrafo-->
+        <p>
+            Sem ponto, sem virgula, sem meia, descalça<br/> <!--tag para pular linha-->
+            Descascou o medo pra caber coragem<br/>
+            Sem calma, sem nada, sem ar<br/>
+        </p>
+        <!--tags de formatação de texto
+        <b>negrito</b>; <i>italico</i>; <strong>Forte</strong>; <small>Pequena</small>-->
+
+        <b>Minha frase em negrito.</b> <br/>
+        <i>Minha frase em itálico.</i> <br/>
+        <strong>Minha frase forte.</strong> <br/>
+        <small>Minha frase pequena.</small> <br/>
+        <u>Minha frase sublinhada.</u> <br/>
+        Minha frase normal.
+
+        <!--listas-->
+        <h1>Lista ordenada:</h1>
+            <ol>
+                <li>Comprar pão</li>
+                <li>Fazer café</li>
+                <li>Me alimentar</li>
+            </ol>
+        
+        <h2>Lista ordenada do número que eu quiser:</h2>
+            <ol start="5"> <!--esse atritubo fala para minha lista ordenadea começar do número que eu determinar-->
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ol>
+        
+        <h2>Lista em ordem alfabética:</h2>
+            <ol type="A"> <!--esse atritubo fala para minha lista ordenada organizar em ordem alfabética-->
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ol>
+        
+        <h2>Lista em ordem de algarismos romanos:</h2>
+            <ol type="I"> <!--esse atritubo fala para minha lista ordenada organizar em algarismos romanos-->
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ol> 
+        
+        <h2>Lista em ordem de algarismos romanos, iniciando a partir de onde eu determinar:</h2>
+            <ol type="I" start="8"> <!--esse atritubo fala para minha lista ordenada organizar em algarismos romanos-->
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ol> 
+        <!--para que as letras ou algarismo sejam minúsculos, basta passar o valor do atributo com a letra minúscula-->
+        
+        <h1>Lista desordenada:</h1>
+            <ul>
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ul>
+
+        <h2>Lista desordenada com quadrados:</h2>
+            <ul type="square">
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ul>
+
+        <h2>Lista desordenada com circulo vazado:</h2>
+            <ul type="circle">
+                <li>Estudar</li>
+                <li>Montar o portfólio</li>
+                <li>Arrumar um emprego</li>
+            </ul>
+
+        <!--TABELAS-->
+        <!--semantica: tornar a página acessível-->
+        <h1>Tabelas</h1>
+            <!--tabela semântica-->
+            <table border="3"> 
+                <thead> <!--cabeçalho da tabela-->
+                    <tr>
+                        <th>Título 1</th> <!--coluna-->
+                        <th>Título 2</th>
+                        <th>Título 3</th>
+                    </tr> <!--t row = linha da tabela-->
+                </thead>
+
+                <tbody> <!--corpo da tabela-->
+                    <tr> <!--tr = linhas-->
+                        <td>Body 1 coluna 1</td><!--td = colunas-->
+                        <td>Body 1 coluna 2</td>
+                        <td>Body 1 coluna 3</td>
+                    </tr>
+                    <tr>
+                        <td>Body 2 coluna 1</td>
+                        <td>Body 2 coluna 2</td>
+                        <td>Body 2 coluna 3</td>
+                    </tr>
+                    <tr>
+                        <td>Body 3 coluna 1</td>
+                        <td>Body 3 coluna 2</td>
+                        <td>Body 3 coluna 3</td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        <h1>Inserindo imagens</h1>
+            <img src="img/Karolina.png" alt="Caricatura Karolina" height=200px width=200/>
+            <br/>
+        
+        <h1>Inserindo um link:</h1>
+            <!--a = ancora-->
+            <a href="https://www.linkedin.com/in/karolinasayonara/" target="_blank">Meu linkedin</a>
+            <br/>
+            <a href="https://g1.globo.com/">G1 Notícias</a>
+        
+        <h1>Formulário</h1>
+           
+            <form action="">
+                <label>Nome:</label> <br>
+                <input type="text">
+
+                <br>
+
+                <label>E-mail:</label> <br>
+                <input type="email">
+
+                <br>
+
+                <label>Senha:</label> <br>
+                <input type="password">
+
+                <br>
+
+                <label>Mensagem:</label> <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+
+
+    </body>
+</html>
