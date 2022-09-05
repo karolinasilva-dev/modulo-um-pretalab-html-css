@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+</head>
+<body>
+    <h1>Estrutura de Tabela</h1>
+
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Karolina</td>
+                <td>29</td>
+                <td>Developer FrontEnd</td>
+            </tr>
+
+            <tr>
+                <td>Rayssa</td>
+                <td>30</td>
+                <td>DevOps</td>
+            </tr>
+            
+            <tr>
+                <td>Marina</td>
+                <td>8</td>
+                <td>Catchiora</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br/>   
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Idade</th>
+                <th>22</th>
+            </tr>
+        </thead>
+    </table>
+    <br/> <!--or-->
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>22</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/> <!--or-->
+    <table border="5"> <!-- sem semântica -->
+        <tr>
+            <th>Idade</th>
+            <td>22</td>
+        </tr>
+    </table>
+    <br/>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Body 1 Linha 1</td>
+                <td>Body 2 Linha 1</td>
+                <td>Body 3 Linha 1</td>
+            </tr>
+
+            <tr>
+                <td>Body 1 Linha 2</td>
+                <td>Body 2 Linha 2</td>
+                <td>Body 3 Linha 2</td>
+            </tr>
+
+            <tr>
+                <td>Foot 1</td>
+                <td>Foot 2</td>
+                <td>Foot 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Criando células vazias:</h1>
+
+    <table border="3">
+        <thead>
+            <tr>
+            <!--<th></th> como eu fiz, mas não é adequado, pois alguns navegadores não conseguem ler adequadamente uma célula vazia-->
+                <th>&nbsp;</th> <!--a solução mais adequada é utilizar a técnica de espaço, incluindo a entidade &nbsp - fonte: https://www.homehost.com.br/blog/criar-sites/tabela-html/-->
+                <th>Valor</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td>R$ 10,00</td>
+            </tr>
+
+            <tr>
+                <td>Item 2</td>
+                <td>R$ 20,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <h1>Mesclando células (colspan)</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">Telefones</th> <!-- o atributo colspan diz "eu quero mesclar x colunas", sendo x o valor que irei colocar para a quantidade de divisões desejáveis-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ted</td>
+                <td>8888-8888</td>
+                <td>9999-9999</td>
+            </tr>
+            <tr>
+                <td>Junior</td>
+                <td>1111-1111</td>
+                <td>2222-2222</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br/>
+
+    <h1>Mesclando células (rowspan)</h1>
+    <table border="1">
+        <tr>
+            <th>Primeiro nome:</th>
+            <td>Ted</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefone:</th>
+            <td>8888-8888</td>
+        </tr>
+        <tr>
+            <td>9999-9999</td>
+        </tr>
+    </table> 
+</body>
+</html>
