@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando CSS</title>
+    <link rel="stylesheet" href="./style.css"> <!--CSS externo - um arquivo fora do html -->
+    
+ <!--<style>
+        body {
+            background-color: greenyellow;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        h1 {
+            color: green;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style> CSS Interno -->   
+
+</head>
+
+<body>
+    <h1 class="titulo">Estudando CSS</h1>
+    <p class="paragrafo">CSS é uma linguagem de estilo, é através dela estilizamos os sites. Mexe com cores, formas, fontes, posições...</p>
+    <p>Existem três formas de conectar o CSS ao HTML:</p>
+<!--<p style="color: orangered">CSS inline</p> -->
+    <p class="paragrafo">CSS interno, insere uma tag style dentro da head e nele insere os atributos desejados.</p>
+
+    <h1 class="titulo">Tabelas</h1>
+    <!--tabela semântica-->
+    <table border="3" id="tabela"> 
+        <thead> <!--cabeçalho da tabela-->
+            <tr>
+                <th>Título 1</th> <!--coluna-->
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr> <!--t row = linha da tabela-->
+        </thead>
+
+        <tbody> <!--corpo da tabela-->
+            <tr> <!--tr = linhas-->
+                <td>Body 1 coluna 1</td><!--td = colunas-->
+                <td>Body 1 coluna 2</td>
+                <td>Body 1 coluna 3</td>
+            </tr>
+            <tr>
+                <td>Body 2 coluna 1</td>
+                <td>Body 2 coluna 2</td>
+                <td>Body 2 coluna 3</td>
+            </tr>
+            <tr>
+                <td>Body 3 coluna 1</td>
+                <td>Body 3 coluna 2</td>
+                <td>Body 3 coluna 3</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 class="titulo">Inserindo imagens</h1>
+        <img src="img/Karolina.png" alt="Caricatura Karolina" height=200px width=200/>
+        <br/>
+
+    <h1 class="titulo">Inserindo um link:</h1>
+        <!--a = ancora-->
+        <a href="https://www.linkedin.com/in/karolinasayonara/" target="_blank">Meu linkedin</a>
+        <br/>
+        <a href="https://g1.globo.com/">G1 Notícias</a>
+
+    <h1 class="titulo">Formulário</h1>
+    
+        <form action="">
+            <label>Nome:</label> <br>
+            <input type="text">
+
+            <br>
+
+            <label>E-mail:</label> <br>
+            <input type="email">
+
+            <br>
+
+            <label>Senha:</label> <br>
+            <input type="password">
+
+            <br>
+
+            <label>Mensagem:</label> <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p class="paragrafoMusica">
+            Sem ponto, sem virgula, sem meia, descalça <br/>
+            Descascou o medo pra caber coragem <br/>
+            Sem calma, sem nada, sem ar <br/>
+        </p>
+
+</body>
+</html>

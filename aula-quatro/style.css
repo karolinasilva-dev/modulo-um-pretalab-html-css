@@ -1,0 +1,49 @@
+/* Sintaxe:
+
+elemento {
+    propriedade: valor;
+}
+
+* O elemento pode ser representado por um seletor(tag), classe ou id.
+
+
+.classes {
+    propriedade: valor
+}
+
+ids:
+
+#id {
+    propriedade: valor;
+}
+
+O ID é uma identificação única, só pode ser utilizada uma única vez em todo o documento.
+
+*/
+
+.titulo {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragrafo {
+    color: blue;
+
+}
+
+#tabela {
+    color:firebrick;
+    background-color: aquamarine; 
+}
+
+.paragrafoMusica {
+    font-size: 17px;
+    font-family: monospace;
+    line-height: 04;
+    border-width: 5px;
+    border: solid;
+    border-color: forestgreen;
+}
+
+/* Utiliozar a ferramenta do desenvolvedor no browser, inspecionar, para editar a configuração de estilo e depois copiar para o vsc. Fazendo isso conseguimos ver a alteração na hora, direto no site, de forma mais rápida e prática.*/
+
