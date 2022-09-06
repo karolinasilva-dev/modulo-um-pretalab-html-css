@@ -1,0 +1,62 @@
+/*SELETOR UNIVERSAL - tudo no meu código atenderá à configuração abaixo*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(202, 114, 6);
+}
+
+/*SELETOR*/
+
+body {
+    border: 5px solid black;
+    background-color: rgb(182, 182, 4);
+}
+
+h1 {
+    background-color: rgb(182, 182, 4);
+    color: white;
+    margin: 10px 0px 0px 300px;
+}
+
+/*CLASSES SELETORAS*/
+
+.card {
+    /*largura*/
+    width: 425px;
+    /*altura*/
+    height: 212px;
+    border: 1px solid black;
+    /*contagem no sentido horário: superior, direita, inferior, esquerda*/
+    margin: 10px 0 10px 11px;
+    /*espaçamento*/
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+.card-titulo {
+    /*tamanho*/
+    font-size: medium;
+    margin: 0 0 10px 19px;
+    /*counteiner/caixa*/
+    display: inline;
+    background-color: white
+}
+
+.card-imagem {
+    width: 30%; /* % significa que eu quero que o que foi selecionado fique em um tamanho 30% em relação ao counteiner que ele está inserido*/
+    display: inline;
+    float: left;
+    margin-top: 50px;
+}
+
+.card-text {
+    display: inline;
+    width: 65%;
+    float: right;
+    font-size: small;
+    /*espaçamento entre linhas*/
+    line-height: 15pt;
+    margin-top: 30px;
+    background-color: white
+}
