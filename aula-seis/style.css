@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background: #f2f1f1;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+}
+
+.container-sobre {
+    display: flex;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.nome {
+    font-size: 40px;
+    color: rgb(20, 20, 61);
+    font-weight: bold;
+}
+
+.container-description {
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+}
